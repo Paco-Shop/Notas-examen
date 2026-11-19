@@ -1,5 +1,5 @@
+import prisma from "./prisma"
 
-import { prisma } from '@/lib/prisma'
 
 export async function obtenerNotas() {
   return await prisma.nota.findMany({

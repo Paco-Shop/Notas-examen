@@ -2,11 +2,11 @@ import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 type EnlaceVolverProps = {
  href: string
- children: string
+ texto: string
 }
 // Enlace de "ir hacia atrás" con su flecha. El destino y el texto van por
 // props, para poder reutilizarlo en cualquier página.
-export function EnlaceVolver({ href, children }: EnlaceVolverProps) {
+export function EnlaceVolver({ href, texto }: EnlaceVolverProps) {
  return (
  <Link
  href={href}
@@ -14,7 +14,7 @@ export function EnlaceVolver({ href, children }: EnlaceVolverProps) {
 transition hover:text-texto"
  >
  <ArrowLeft className="h-4 w-4" aria-hidden="true" />
- {children}
+ {texto}
  </Link>
  )
 }
