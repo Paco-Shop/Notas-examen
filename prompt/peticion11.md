@@ -1,0 +1,2 @@
+Hazlo tú a mano. Son pocas líneas, y la IA tiene la mala costumbre de reescribir el layout.tsx entero y cargarse
+las fuentes. Editado a mano, el resultado son tres archivos pequeños y cuatro líneas modificadas, sin tocar nada más.
